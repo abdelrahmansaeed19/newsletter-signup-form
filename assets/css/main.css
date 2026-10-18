@@ -71,7 +71,7 @@ body {
 }
 
 .success-head {
-  font-size: 3rem;
+  font-size: min(2.5rem, 11vw);
   margin-top: 1rem;
 }
 
@@ -262,10 +262,6 @@ dialog[open]::backdrop {
     flex: 1;
     padding: 0rem 1.5rem 1.5rem 1.5rem;
   }
-
-  /* .signup-content form {
-    margin-top: auto;
-  } */
 
   .signup-features-list li {
     padding-inline-start: min(3.5rem, 9.5vw);

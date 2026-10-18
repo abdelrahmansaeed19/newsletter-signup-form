@@ -1,5 +1,4 @@
 const dialog = document.getElementById("signup-success-dialog");
-const dismissbtn = document.getElementById("dismiss-button");
 const form = document.getElementById("signup-form");
 const emailInputArea = document.getElementById("email");
 const successEmail = document.getElementById("user-email");
